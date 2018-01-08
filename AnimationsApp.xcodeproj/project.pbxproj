@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		81CC41172003C89E00C61E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41162003C89E00C61E91 /* AppDelegate.swift */; };
-		81CC41192003C89E00C61E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41182003C89E00C61E91 /* ViewController.swift */; };
+		81CC41192003C89E00C61E91 /* UpDownAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41182003C89E00C61E91 /* UpDownAnimationViewController.swift */; };
 		81CC411C2003C89E00C61E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CC411A2003C89E00C61E91 /* Main.storyboard */; };
 		81CC411E2003C89E00C61E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CC411D2003C89E00C61E91 /* Assets.xcassets */; };
 		81CC41212003C89E00C61E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CC411F2003C89E00C61E91 /* LaunchScreen.storyboard */; };
 		81CC412C2003C89E00C61E91 /* AnimationsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC412B2003C89E00C61E91 /* AnimationsAppTests.swift */; };
 		81CC41372003C89E00C61E91 /* AnimationsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41362003C89E00C61E91 /* AnimationsAppUITests.swift */; };
+		81CC41452003E36800C61E91 /* SpiralRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41442003E36800C61E91 /* SpiralRotationViewController.swift */; };
+		81CC41812004060000C61E91 /* SliderAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC41802004060000C61E91 /* SliderAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		81CC41132003C89E00C61E91 /* AnimationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CC41162003C89E00C61E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81CC41182003C89E00C61E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81CC41182003C89E00C61E91 /* UpDownAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownAnimationViewController.swift; sourceTree = "<group>"; };
 		81CC411B2003C89E00C61E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81CC411D2003C89E00C61E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CC41202003C89E00C61E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		81CC41322003C89E00C61E91 /* AnimationsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CC41362003C89E00C61E91 /* AnimationsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAppUITests.swift; sourceTree = "<group>"; };
 		81CC41382003C89E00C61E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CC41442003E36800C61E91 /* SpiralRotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralRotationViewController.swift; sourceTree = "<group>"; };
+		81CC41802004060000C61E91 /* SliderAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				81CC41162003C89E00C61E91 /* AppDelegate.swift */,
-				81CC41182003C89E00C61E91 /* ViewController.swift */,
+				81CC41182003C89E00C61E91 /* UpDownAnimationViewController.swift */,
+				81CC41802004060000C61E91 /* SliderAnimationViewController.swift */,
+				81CC41442003E36800C61E91 /* SpiralRotationViewController.swift */,
 				81CC411A2003C89E00C61E91 /* Main.storyboard */,
 				81CC411D2003C89E00C61E91 /* Assets.xcassets */,
 				81CC411F2003C89E00C61E91 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CC41192003C89E00C61E91 /* ViewController.swift in Sources */,
+				81CC41812004060000C61E91 /* SliderAnimationViewController.swift in Sources */,
+				81CC41192003C89E00C61E91 /* UpDownAnimationViewController.swift in Sources */,
+				81CC41452003E36800C61E91 /* SpiralRotationViewController.swift in Sources */,
 				81CC41172003C89E00C61E91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
